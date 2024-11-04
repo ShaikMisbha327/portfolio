@@ -1,0 +1,242 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Default link color */
+    padding: 10px 15px; /* Add some padding */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for color change */
+}
+
+nav ul li a:hover {
+    color: #6878e1; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .introduction h2 {
+    font-weight: bold; 
+    font-size: 1.5rem; /* Set to a smaller size */
+    color: black; /* Set the text color to black */
+}
+
+.dynamic-text {
+    font-size: 2rem; /* Adjust this size as needed */
+    font-weight: bold; /* Optional: make it bold */
+    color: #007bff; /* Optional: adjust the color if needed */
+}
+
+#and-i-am {
+    font-size: 1.5rem; /* Match the font size of the dynamic text */
+    color: black; /* Set the color to black */
+    font-weight: bold;
+}
+  
+.highlight-name {
+    color: #007bff; /* Bootstrap primary color */
+    font-weight: bold; /* Makes the name bold */
+}
+
+
+  /* Introduction Section */
+
+/* .introduction {
+    background-color: #f8f9fa; 
+  }
+  
+  .introduction h2 {
+    font-weight: bold; 
+  }
+  
+  .introduction p {
+    margin-bottom: 1rem; 
+  } */
+  .introduction {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 0; /* Spacing around the section */
+}
+
+.introduction h2 {
+    font-weight: bold; /* Bold heading */
+    color: #007bff; /* Primary color for the heading */
+    font-size: 2.5rem; /* Adjust heading size as needed */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.introduction p {
+    margin-bottom: 1rem; /* Space below paragraphs */
+    color: #6c757d; /* Muted text color for readability */
+    font-size: 1.125rem; /* Adjust paragraph size */
+}
+
+.introduction .btn {
+    margin-top: 20px; /* Space above the button */
+    background-color: #007bff; /* Primary button color */
+    border-color: transparent; /* Remove border */
+}
+
+.introduction .btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.img-fluid {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+  
+/* Background Section */
+#background {
+    background-color: #333;
+    padding: 50px 0;
+    font-size: 1.2rem;
+    height: 400px;
+}
+
+#background p {
+    line-height: 1.8;
+}
+
+/* About Section Styling */
+#about {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+  
+  .about-heading {
+    color: #007bff; /* Blue color for "Welcome to My Portfolio" */
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  #about p.lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  #about .lead:last-of-type {
+    margin-top: 20px;
+    font-style: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .about-heading {
+      font-size: 2rem;
+    }
+  
+    #about p.lead {
+      font-size: 1.1rem;
+    }
+  }
+  
+
+/* Projects Section */
+
+.projects {
+    background-color: #f8f9fa;
+}
+
+.projects h2 {
+    color: #007bff;
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-30px);
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+}
+
+.project-card .icon {
+    transition: color 0.3s ease;
+}
+
+.project-card:hover .icon {
+    color: #0056b3;
+}
+
+.project-card p {
+    margin-bottom: 1.5rem;
+}
+
+
+/* Skills Section */
+
+
+.services {
+    background-color: #f9f9f9; 
+  }
+  
+  .card {
+    transition: transform 0.3s ease; 
+  }
+  
+  .card:hover {
+    transform: translateY(-30px); 
+  }
+  .services .card h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+.skill{
+    color: #007bff; 
+}
+
+/* Contact Section */
+
+.contact {
+    background-color: #f8f9fa;
+}
+
+.contact h2,
+.contact h4 {
+    color: #007bff;
+}
+
+.contact .form-label {
+    font-weight: bold;
+}
+
+.contact .form-control {
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.contact .btn-primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.contact .social-icons a {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.contact .social-icons a:hover {
+    color: #0056b3;
+}
+
+.contact .social-icons a {
+    font-size: 2rem;
+}
